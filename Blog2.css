@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: "Press Start 2P", system-ui ;
+    background-color: #f2dfbe;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    margin: 0;
+    padding: 0;  
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;  
+}
+
+
+header {
+    background-color: #FF8911;
+    color: #fff;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-left h1 {
+    margin: 0;
+}
+
+.header-right nav ol li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+}
+
+.header-right nav ol li a:hover {
+    border-bottom: 3px solid #fd4901;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-card {
+    background-color: #FDBF60; /*fondo cards video*/
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-button {
+    background-color: #FF8911;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.video-button:hover {
+    background-color: #fd4901;
+}
+
+.small-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #FDBF60; /*fondo cardas*/
+    padding: 15px;
+    margin: 10px;
+    width: calc(30% - 20px); /* 30% width with margin */
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card button {
+    background-color: #FF8911;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #fd4901;
+}
+
+footer {
+    background-color: #FF8911;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
